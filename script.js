@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Remove ads script
-// @description  I am a demo user script that you can safely delete (add any files to this folder and I will no longer automatically generate)
+// @description  Remove shopee, lazada urls that causing popup ads
 // @author       Userscripts
 // @version      0.0.1
 // @match        *://*/*
