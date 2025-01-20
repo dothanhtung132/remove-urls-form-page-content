@@ -5,7 +5,7 @@
 // @version      0.0.1
 // @match        *://*/*
 // @grant        none
-// @inject-into  content
+// @run-at       document-end
 // ==/UserScript==
 (function() {
     'use strict';
