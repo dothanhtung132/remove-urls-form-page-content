@@ -9,5 +9,7 @@
 // ==/UserScript==
 (function() {
     'use strict';
-    document.querySelectorAll('a[href*="shopee"], a[href*="lazada"]').forEach(item => item.remove());
+    setTimeout(function() {
+        document.querySelectorAll('a[href*="shopee"], a[href*="lazada"]').forEach(item => item.remove());
+    }, 1000);
 })();
