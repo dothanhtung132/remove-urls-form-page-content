@@ -10,6 +10,6 @@
 (function() {
     'use strict';
     setTimeout(function() {
-        document.querySelectorAll('a[href*="shopee"], a[href*="lazada"]').forEach(item => item.remove());
-    }, 1000);
+        document.querySelectorAll('a[href*="shopee"][target="_blank"], a[href*="lazada"][target="_blank"]').forEach(item => item && item.remove());
+    }, 100);
 })();
