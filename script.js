@@ -15,5 +15,5 @@
     removeEls();
     setTimeout(function() {
         removeEls();
-    }, 2000);
+    }, 200);
 })();
